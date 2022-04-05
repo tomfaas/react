@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react";
-import logo from "./logo.svg";
 import "./App.scss";
 
 import Filters from "./components/Filters/Filters";
 import Cocktail from "./components/Cocktail/Cocktail";
 
 const App = () => {
-  const [selectedFilters, setSelectedFilters] = useState("Gin");
+  const [selectedFilters, setSelectedFilters] = useState("7-Up");
   const [cocktailIds, setCocktailIds] = useState([]);
 
   useEffect(() => {

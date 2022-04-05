@@ -13,7 +13,17 @@ const Filters = ({ selectedFilters, setSelectedFilters }) => {
       fetch("https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list")
         .then((response) => response.json())
         .then((data) => {
-          setFiltersData(data.drinks);
+          setFiltersData(
+            data.drinks.sort(function (a, b) {
+              if (a.strIngredient1 < b.strIngredient1) {
+                return -1;
+              }
+              if (a.strIngredient1 > b.strIngredient1) {
+                return 1;
+              }
+              return 0;
+            })
+          );
         });
     };
 
