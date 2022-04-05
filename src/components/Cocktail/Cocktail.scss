@@ -1,6 +1,6 @@
 .cocktail {
 	width: 48%;
-	height: 300px;
+	height: 350px;
 	background-color: white;
 	border-radius: 20px;
 	margin: 1% 0;
@@ -31,5 +31,17 @@
 		text-align: left;
 		padding: 10px;
 		overflow: scroll;
+	}
+
+	a {
+		font-size: 101%;
+		background-color: #25D366;
+		padding: 10px; 
+		border-radius: 10px;
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		margin-bottom: 8px;
+		display: inline-block;
 	}
 }

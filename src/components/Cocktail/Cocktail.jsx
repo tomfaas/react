@@ -27,6 +27,13 @@ const Cocktail = ({ id }) => {
       </div>
       <div className="cocktail-info">
         <h3>{cocktailData.strDrink}</h3>
+        <a
+          href={`https://wa.me/?text=${cocktailData.strDrink}, ${cocktailData.strInstructions}`}
+          target="_blank"
+          className="whats"
+        >
+          Share with WhatsApp →
+        </a>
         <p>{cocktailData.strInstructions}</p>
       </div>
     </div>
