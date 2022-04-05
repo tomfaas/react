@@ -1,0 +1,14 @@
+.filter {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin: 7.5px 0;
+	input {
+		margin-right: 15px;
+		height: 19px;
+		width: 19px;
+	}
+	label {
+		font-size: 110%;
+	}
+}
