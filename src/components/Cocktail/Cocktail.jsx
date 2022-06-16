@@ -1,3 +1,7 @@
+// Is leuk om een recept van het drankje erbij te doen ipv alleen een deel knop.
+// Denk aan hoelang het duurt, hoeveel alcohol zit erin, hoeveel gaat het kosten etc..
+// Zou chill zijn om de cocktails ook te kunnen delen op twitter oid
+
 import { useEffect, useState } from "react";
 import "./Cocktail.scss";
 

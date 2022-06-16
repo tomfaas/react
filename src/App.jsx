@@ -1,3 +1,7 @@
+// Ipv een enorme lap aan ingredienten kan je dit ook opdelen in categorieën of iets van "waar heb je zin in"
+// met daarbij opties voor "fris" "winters"
+// Zo krijg je wat meer overzicht
+
 import { useState, useEffect } from "react";
 import "./App.scss";
 
