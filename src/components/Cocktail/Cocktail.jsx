@@ -27,12 +27,20 @@ const Cocktail = ({ id }) => {
       </div>
       <div className="cocktail-info">
         <h3>{cocktailData.strDrink}</h3>
+        <h3>{cocktailData.strCategory}</h3>
         <a
           href={`https://wa.me/?text=${cocktailData.strDrink}, ${cocktailData.strInstructions}`}
           target="_blank"
           className="whats"
         >
           Share with WhatsApp →
+        </a>
+
+        <a
+          class="twitter"
+          href={`https://twitter.com/intent/tweet?text=${cocktailData.strDrink}, ${cocktailData.strInstructions}`}
+        >
+          Tweet this cocktail →
         </a>
         <p>{cocktailData.strInstructions}</p>
       </div>
